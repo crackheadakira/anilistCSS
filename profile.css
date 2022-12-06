@@ -36,13 +36,21 @@
 }
 
 .desktop[data-v-63cd3b41] {
-    background-image: url(https://last-fm-embed.vercel.app/crackheadakira) !important;
+    background-image: url(https://last-fm-embed.vercel.app/crackheadakira?bgColor=151f2e) !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
-    background-position: center !important;
-    height: 133px !important;
+    width: 470px;
+    height: 151px;
 }
 
 .desktop[data-v-63cd3b41] > * {
     display: none !important;
+}
+
+.el-dropdown[data-v-eb51fd0e] {
+    padding-right: 0 !important;
+}
+
+.el-dropdown-menu[data-v-eb51fd0e] {
+    margin-right: 0 !important;
 }
