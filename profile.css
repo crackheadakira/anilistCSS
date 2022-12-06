@@ -1,0 +1,48 @@
+.stats-wrap[data-v-815ccddc] {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 20px 10px;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    position: relative;
+    grid-row-gap: 1rem;
+}
+
+.stat:first-of-type {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.stats-wrap .stat:nth-child(2) {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.stats-wrap .stat:nth-child(3) {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.stat:first-of-type .value {
+    font-size: 3rem;
+}
+
+.footer[data-v-815ccddc] {
+    display: none;
+}
+
+.list-stats {
+    margin-bottom: 2rem !important;
+}
+
+.desktop[data-v-63cd3b41] {
+    background-image: url(https://last-fm-embed.vercel.app/crackheadakira) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 133px !important;
+}
+
+.desktop[data-v-63cd3b41] > * {
+    display: none !important;
+}
