@@ -1,7 +1,3 @@
-:root {
-    --lastFMEmbedURL: "https://fm.morgantali.tech/crackheadakira?showStatus=true&statusBar=true&statusBarColor=d878cb&bgColor=151f2e";
-}
-
 .stats-wrap[data-v-815ccddc] {
     display: grid;
     grid-auto-flow: column;
@@ -40,7 +36,7 @@
 }
 
 .desktop[data-v-63cd3b41] {
-	background-image: url(var(--lastFMEmbedURL)) !important;
+	background-image: url(https://fm.morgantali.tech/crackheadakira?showStatus=true&statusBar=true&statusBarColor=d878cb&bgColor=151f2e) !important;
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
 	background-position: center;
